@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Hs3YEkhSGASuI_-_F9Xm">
+    <mxGraphModel dx="1318" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-20" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="260" width="620" x="140" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-21" parent="1" style="html=1;whiteSpace=wrap;" value="LockerTerminal" vertex="1">
+          <mxGeometry height="30" width="110" x="379" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-22" parent="1" style="html=1;whiteSpace=wrap;" value="PackageService" vertex="1">
+          <mxGeometry height="30" width="110" x="608.61" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-24" edge="1" parent="1" source="dQOG1kXZMWTmVMhTFmyk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245.17" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-23" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="khach nhan hang" vertex="1">
+          <mxGeometry height="60" width="30" x="230" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-25" edge="1" parent="1" source="dQOG1kXZMWTmVMhTFmyk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433.58" y="480" as="sourcePoint" />
+            <mxPoint x="433.75" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-26" edge="1" parent="1" source="dQOG1kXZMWTmVMhTFmyk-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="663.22" y="490" as="sourcePoint" />
+            <mxPoint x="663.39" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-27" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="290.8" width="10" x="429" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-28" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="260" width="10" x="658.61" y="498.8" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-30" edge="1" parent="1" style="endArrow=blockThin;endSize=12;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;endFill=1;" target="dQOG1kXZMWTmVMhTFmyk-27" value="nhap ma otp">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="246" y="473" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-31" edge="1" parent="1" source="dQOG1kXZMWTmVMhTFmyk-27" style="endArrow=blockThin;endSize=12;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;endFill=1;" value="nhap ma otp">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="444.61" y="498.8" as="sourcePoint" />
+            <mxPoint x="658.61" y="498.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-32" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;dashPattern=1 1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="761" y="649" as="sourcePoint" />
+            <mxPoint x="139.995" y="649.755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[otp dung]" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-34" edge="1" parent="1" style="endArrow=blockThin;endSize=12;html=1;rounded=0;endFill=1;dashed=1;" value="ket qua hop le">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="658.6100000000001" y="550.0000000000002" as="sourcePoint" />
+            <mxPoint x="439" y="550.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-35" edge="1" parent="1" source="dQOG1kXZMWTmVMhTFmyk-27" style="endArrow=blockThin;endSize=12;html=1;rounded=0;endFill=1;dashed=1;" value="mo tu thanh cong">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="499.6100000000001" y="590" as="sourcePoint" />
+            <mxPoint x="246" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[otp sai]" vertex="1">
+          <mxGeometry height="30" width="50" x="140" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-37" edge="1" parent="1" style="endArrow=blockThin;endSize=12;html=1;rounded=0;endFill=1;dashed=1;" value="ket qua khong hop le">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="658.6100000000001" y="680" as="sourcePoint" />
+            <mxPoint x="439" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOG1kXZMWTmVMhTFmyk-38" edge="1" parent="1" style="endArrow=blockThin;endSize=12;html=1;rounded=0;endFill=1;dashed=1;" value="ma otp ko dung, vui long thu lai">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="429" y="740" as="sourcePoint" />
+            <mxPoint x="246" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R1LQH20Cy0uhE7zSD2zA-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h3 dir=&quot;auto&quot; class=&quot;PDq2pG_selectionAnchorContainer&quot;&gt;Phần 1 — Xác định thiếu sót&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br/&gt;&lt;p dir=&quot;auto&quot;&gt;Sơ đồ hiện tại &lt;strong&gt;chưa mô tả đầy đủ nghiệp vụ&lt;/strong&gt; vì chỉ thể hiện một trường hợp xác thực OTP, trong khi theo yêu cầu:&lt;/p&gt;&lt;br/&gt;&lt;ul&gt;&lt;br/&gt;&lt;li&gt;&lt;br/&gt;OTP chỉ có &lt;strong&gt;2 khả năng&lt;/strong&gt;: đúng hoặc sai.&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;br/&gt;Hai khả năng này phải được biểu diễn bằng &lt;strong&gt;Combined Fragment &lt;code&gt;alt&lt;/code&gt;&lt;/strong&gt;.&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;br/&gt;Nhánh thứ nhất: &lt;code&gt;[OTP đúng]&lt;/code&gt;.&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;br/&gt;Nhánh thứ hai: &lt;code&gt;else [OTP sai]&lt;/code&gt;.&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;br/&gt;&lt;p dir=&quot;auto&quot;&gt;Nếu chỉ có nhánh OTP đúng thì khi OTP sai, Sequence Diagram &lt;strong&gt;không cho biết hệ thống phải phản hồi như thế nào&lt;/strong&gt;.&lt;/p&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="309" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
